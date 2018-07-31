@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.film{
+    width:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: .5rem;
+    box-sizing: border-box;
+}
+.switch{
+    display: flex;
+}
+.switch span{
+    width:50%;
+    text-align: center;
+    height:.5rem;
+    line-height: .5rem;
+    flex: auto;
+    font-size: .16rem;
+    border-bottom: 1px solid orange;
+    box-sizing: border-box;
+}
+.switch .action{
+    color:#fe6e00;
+    border-bottom: 3px solid orange;
+}

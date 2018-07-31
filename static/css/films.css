@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.films{
+    width:100%;
+    box-sizing: border-box;
+    border-bottom: dashed 1px #c9c9c9;
+}
+.film-item{
+    padding:20px 0;
+    display: flex;
+    overflow: hidden;
+}
+.left{
+    padding:0;
+    width:.6rem;
+}
+.left img{
+    display: block;
+    width:100%;
+}
+.right{
+    width:75%;
+    font-size: .12px;
+    margin-left:10px;
+}
+
+.right .film-name{
+    width:100%;
+    font-size: 16px;
+}
+.right .film-name .film-grade{
+    float: right;
+}
+.right .film-info{
+    margin-top:15px;
+    color:#8e8e8e;
+}
+.right .film-counts{
+    margin-top:15px;
+    color:#8e8e8e;
+}
+.right .film-reactid{
+    margin-top:15px;
+    color:#8e8e8e;
+}

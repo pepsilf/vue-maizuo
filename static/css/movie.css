@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.movie{
+    width:100%;
+    display: flex;
+    margin:0 auto;
+}
+.film-list{
+    width:5.6rem;
+    margin:auto;
+    padding:10px 0;
+}
+.film-item{
+    margin:10px;
+    font-size: 0;
+}
+.film-item img{
+    width:100%;
+}
+.film-info{
+    width:100%;
+    height:.5rem;
+    background: lavender;
+}
+.film-left{
+    float: left;
+    font-size: .12rem;
+}
+.film-name{
+    margin-top:10px;
+    font-size: .14rem;
+}
+.film-nums{
+    font-size: .12rem;
+    color: gray;
+}
+.film-grade{
+    line-height: .5rem;
+    margin-right:10px;
+    float: right;
+    font-size: .16rem;
+    color:orangered;
+}
+.film-day{
+    line-height: .5rem;
+    margin-right:10px;
+    float: right;
+    font-size: .12rem;
+    color:orangered;
+}
+.more-button{
+    height:.3rem;
+    width:1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: .3rem;
+    border-radius: .3rem;
+    border: 1px solid grey;
+    font-size: .14rem;
+    color:gray;
+}

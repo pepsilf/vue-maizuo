@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    width:100%;
+    display: flex;
+    z-index: 1;
+}
+.header span{
+    height:.5rem;
+    line-height:.5rem;
+    width:.5rem;
+    text-align: center;
+    font-size:.14rem;
+    background: #282828;
+    flex: none;
+    color:#fff;
+}
+.header span:nth-child(2){
+    flex: auto;
+    text-align: left;
+}
